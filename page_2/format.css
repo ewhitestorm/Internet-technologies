@@ -1,0 +1,54 @@
+.header-content {
+    text-align: center;
+}
+
+/*заголовок*/
+.page-header {
+	padding-bottom: 9px;
+	margin: 50px 0 30px;
+	border-bottom: 1px solid #eee;
+}
+
+/*название проекта*/
+h2 {
+	font-style: italic;
+	height: 100px;
+}
+
+/*поле ввода данных*/
+.form-group {
+    padding-left: 5.2%;
+}
+
+label {
+	margin: 0px 6%;
+}
+
+/*две кнопки в ряду*/
+.btn-group {
+    padding: 9px 6%;
+}
+
+/*таблица*/
+.col-group {
+    margin: 50px 6%;
+	text-align: center;
+	table-layout: fixed;
+}
+
+tr {
+	width: 10%;
+	display: inline-table;
+	height: 20%;                
+}
+
+
+td {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 25px;
+}
+
+/*ссылка*/
+a {
+	padding: 9px 6%;
+}
