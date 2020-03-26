@@ -1,0 +1,106 @@
+.header-content {
+    text-align: center;
+}
+
+/*заголовок*/
+.page-header {
+	padding-bottom: 9px;
+	margin: 50px 0 30px;
+	border-bottom: 1px solid #eee;
+}
+
+/*название проекта*/
+h2 {
+	font-style: italic;
+	height: 50px;
+}
+
+.container {
+	float: center;
+	margin: 20px;
+}
+
+.container:after, .row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.row {
+	margin-bottom: 10px;
+	padding-right: 10%;
+	float: left;
+}
+
+.col-sm-3 {
+	margin-top: 30px;
+}
+
+/*поле ввода данных*/
+label {
+	margin: 0px 6%;
+}
+
+.col-1-1 {
+	width: 50%;
+	float: left;
+}
+
+/*ссылка*/
+a {
+	display:block; 
+	padding: 0 50px; 
+	float:left;
+}
+
+/*таблица*/
+.first {
+	empty-cells: show; /* показывать пустые ячейки */	
+} 
+
+.table {
+    margin: 0px 10%;
+	float: left;
+}
+
+.table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+.table th, .table td {
+	border: 1px solid #888;
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+}
+
+/*.table td:hover {
+	background: #fe6000;
+}
+ 
+.table td:hover:before { 
+	background-color: #eee;
+	content: '';  
+	height: 100%;
+	right: 0;
+	left: -5000px;
+	position: absolute;  
+	top: 0;
+	  
+	z-index: -2;        
+}
+ 
+.table td:hover:after { 
+	background-color: #eee;
+	content: '';  
+	height: 10000px;    
+	left: 0;
+	position: absolute;  
+	top: -5000px;
+	width: 100%;
+	z-index: -1;        
+}*/
